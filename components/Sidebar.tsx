@@ -15,7 +15,7 @@ const Sidebar = () => {
         <div className="space-y-2">
           {modules.map((module) => (
             <Link
-              className="bg-blue-200 hover:bg-blue-300 cursor-pointer py-2 px-4 rounded flex gap-2 items-center"
+              className="bg-blue-200 hover:bg-blue-300 cursor-pointer py-2 px-4 rounded flex gap-2 items-center shadow"
               key={module.name}
               href={module.url}
             >

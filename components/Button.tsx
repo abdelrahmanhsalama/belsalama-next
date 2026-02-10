@@ -9,7 +9,7 @@ const Button = ({
 }) => {
   return (
     <button
-      className={`bg-blue-200 hover:bg-blue-300 cursor-pointer p-2 rounded ${variant == "icon" && ""}`}
+      className={`bg-blue-200 hover:bg-blue-300 cursor-pointer p-2 rounded shadow ${variant == "icon" && ""}`}
     >
       {children}
     </button>
